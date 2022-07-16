@@ -12,4 +12,3 @@ param = {'symbol': 'BTCUSDC', 'interval': '1d', 'limit': 1000}
 quotes = requests.get(url, params=param)
 data = ''
 dec_data = json.loads(quotes.text)
-print(dec_data)
